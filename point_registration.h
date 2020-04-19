@@ -12,6 +12,9 @@
 #include <pcl/visualization/cloud_viewer.h>
 #include <pcl/sample_consensus/ransac.h>
 #include <pcl/sample_consensus/sac_model_plane.h>
+#include <pcl/filters/extract_indices.h>
+#include <pcl/kdtree/kdtree_flann.h>
+
 using namespace std;
 
 #ifndef LIDAR_ICP_HELLO_WORLD_H

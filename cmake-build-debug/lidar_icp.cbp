@@ -162,10 +162,10 @@
 		<Unit filename="/home/haeyeon/pointcloud/feature_registeration.h">
 			<Option target="lidar_icp"/>
 		</Unit>
-		<Unit filename="/home/haeyeon/pointcloud/point_registration.cpp">
+		<Unit filename="/home/haeyeon/pointcloud/find_nearest.cpp">
 			<Option target="lidar_icp"/>
 		</Unit>
-		<Unit filename="/home/haeyeon/pointcloud/point_registration.h">
+		<Unit filename="/home/haeyeon/pointcloud/find_nearest.h">
 			<Option target="lidar_icp"/>
 		</Unit>
 		<Unit filename="/home/haeyeon/pointcloud/visualize_correspondences.cpp">

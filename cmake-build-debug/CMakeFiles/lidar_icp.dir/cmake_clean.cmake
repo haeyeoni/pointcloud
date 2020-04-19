@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lidar_icp.dir/feature_registeration.cpp.o"
-  "CMakeFiles/lidar_icp.dir/point_registration.cpp.o"
+  "CMakeFiles/lidar_icp.dir/find_nearest.cpp.o"
   "CMakeFiles/lidar_icp.dir/visualize_correspondences.cpp.o"
   "lidar_icp"
   "lidar_icp.pdb"

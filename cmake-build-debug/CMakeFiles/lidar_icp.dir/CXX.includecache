@@ -6,16 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/home/haeyeon/pointcloud/point_registration.cpp
+/home/haeyeon/pointcloud/find_nearest.cpp
 pcl/filters/extract_indices.h
 -
-point_registration.h
-/home/haeyeon/pointcloud/point_registration.h
+find_nearest.h
+/home/haeyeon/pointcloud/find_nearest.h
 
-/home/haeyeon/pointcloud/point_registration.h
+/home/haeyeon/pointcloud/find_nearest.h
 iostream
 -
-iostream
+boost/filesystem.hpp
 -
 pcl/ModelCoefficients.h
 -

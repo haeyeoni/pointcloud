@@ -21,7 +21,7 @@ include_directories(
 set(G2O_LIBS
         g2o_core g2o_stuff g2o_types_sba g2o_types_slam3d
         )
-add_executable(lidar_icp point_registration.cpp point_registration.h feature_registeration.cpp feature_registeration.h visualize_correspondences.cpp visualize_correspondences.h)
+add_executable(lidar_icp find_nearest.cpp find_nearest.h feature_registeration.cpp feature_registeration.h visualize_correspondences.cpp visualize_correspondences.h)
 target_link_libraries(lidar_icp
         ${PCL_LIBRARIES}
         ${CHOLMOD_LIBRARIES}

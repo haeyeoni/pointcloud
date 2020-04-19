@@ -57,18 +57,18 @@ include CMakeFiles/lidar_icp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lidar_icp.dir/flags.make
 
-CMakeFiles/lidar_icp.dir/point_registration.cpp.o: CMakeFiles/lidar_icp.dir/flags.make
-CMakeFiles/lidar_icp.dir/point_registration.cpp.o: ../point_registration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haeyeon/pointcloud/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lidar_icp.dir/point_registration.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidar_icp.dir/point_registration.cpp.o -c /home/haeyeon/pointcloud/point_registration.cpp
+CMakeFiles/lidar_icp.dir/find_nearest.cpp.o: CMakeFiles/lidar_icp.dir/flags.make
+CMakeFiles/lidar_icp.dir/find_nearest.cpp.o: ../find_nearest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haeyeon/pointcloud/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lidar_icp.dir/find_nearest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidar_icp.dir/find_nearest.cpp.o -c /home/haeyeon/pointcloud/find_nearest.cpp
 
-CMakeFiles/lidar_icp.dir/point_registration.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lidar_icp.dir/point_registration.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haeyeon/pointcloud/point_registration.cpp > CMakeFiles/lidar_icp.dir/point_registration.cpp.i
+CMakeFiles/lidar_icp.dir/find_nearest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lidar_icp.dir/find_nearest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haeyeon/pointcloud/find_nearest.cpp > CMakeFiles/lidar_icp.dir/find_nearest.cpp.i
 
-CMakeFiles/lidar_icp.dir/point_registration.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidar_icp.dir/point_registration.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haeyeon/pointcloud/point_registration.cpp -o CMakeFiles/lidar_icp.dir/point_registration.cpp.s
+CMakeFiles/lidar_icp.dir/find_nearest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidar_icp.dir/find_nearest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haeyeon/pointcloud/find_nearest.cpp -o CMakeFiles/lidar_icp.dir/find_nearest.cpp.s
 
 CMakeFiles/lidar_icp.dir/feature_registeration.cpp.o: CMakeFiles/lidar_icp.dir/flags.make
 CMakeFiles/lidar_icp.dir/feature_registeration.cpp.o: ../feature_registeration.cpp
@@ -98,14 +98,14 @@ CMakeFiles/lidar_icp.dir/visualize_correspondences.cpp.s: cmake_force
 
 # Object files for target lidar_icp
 lidar_icp_OBJECTS = \
-"CMakeFiles/lidar_icp.dir/point_registration.cpp.o" \
+"CMakeFiles/lidar_icp.dir/find_nearest.cpp.o" \
 "CMakeFiles/lidar_icp.dir/feature_registeration.cpp.o" \
 "CMakeFiles/lidar_icp.dir/visualize_correspondences.cpp.o"
 
 # External object files for target lidar_icp
 lidar_icp_EXTERNAL_OBJECTS =
 
-lidar_icp: CMakeFiles/lidar_icp.dir/point_registration.cpp.o
+lidar_icp: CMakeFiles/lidar_icp.dir/find_nearest.cpp.o
 lidar_icp: CMakeFiles/lidar_icp.dir/feature_registeration.cpp.o
 lidar_icp: CMakeFiles/lidar_icp.dir/visualize_correspondences.cpp.o
 lidar_icp: CMakeFiles/lidar_icp.dir/build.make

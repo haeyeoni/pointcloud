@@ -581,9 +581,9 @@ CMakeFiles/lidar_icp.dir/feature_registeration.cpp.o
  /usr/include/vtk-6.3/vtkWin32Header.h
  /usr/include/vtk-6.3/vtkWindow.h
  /usr/include/vtk-6.3/vtkWriter.h
-CMakeFiles/lidar_icp.dir/point_registration.cpp.o
- /home/haeyeon/pointcloud/point_registration.cpp
- /home/haeyeon/pointcloud/point_registration.h
+CMakeFiles/lidar_icp.dir/find_nearest.cpp.o
+ /home/haeyeon/pointcloud/find_nearest.cpp
+ /home/haeyeon/pointcloud/find_nearest.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

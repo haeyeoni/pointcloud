@@ -150,32 +150,32 @@ feature_registeration.cpp.s:
 	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/feature_registeration.cpp.s
 .PHONY : feature_registeration.cpp.s
 
-point_registration.o: point_registration.cpp.o
+find_nearest.o: find_nearest.cpp.o
 
-.PHONY : point_registration.o
+.PHONY : find_nearest.o
 
 # target to build an object file
-point_registration.cpp.o:
-	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/point_registration.cpp.o
-.PHONY : point_registration.cpp.o
+find_nearest.cpp.o:
+	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/find_nearest.cpp.o
+.PHONY : find_nearest.cpp.o
 
-point_registration.i: point_registration.cpp.i
+find_nearest.i: find_nearest.cpp.i
 
-.PHONY : point_registration.i
+.PHONY : find_nearest.i
 
 # target to preprocess a source file
-point_registration.cpp.i:
-	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/point_registration.cpp.i
-.PHONY : point_registration.cpp.i
+find_nearest.cpp.i:
+	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/find_nearest.cpp.i
+.PHONY : find_nearest.cpp.i
 
-point_registration.s: point_registration.cpp.s
+find_nearest.s: find_nearest.cpp.s
 
-.PHONY : point_registration.s
+.PHONY : find_nearest.s
 
 # target to generate assembly for a file
-point_registration.cpp.s:
-	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/point_registration.cpp.s
-.PHONY : point_registration.cpp.s
+find_nearest.cpp.s:
+	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/find_nearest.cpp.s
+.PHONY : find_nearest.cpp.s
 
 visualize_correspondences.o: visualize_correspondences.cpp.o
 
@@ -216,9 +216,9 @@ help:
 	@echo "... feature_registeration.o"
 	@echo "... feature_registeration.i"
 	@echo "... feature_registeration.s"
-	@echo "... point_registration.o"
-	@echo "... point_registration.i"
-	@echo "... point_registration.s"
+	@echo "... find_nearest.o"
+	@echo "... find_nearest.i"
+	@echo "... find_nearest.s"
 	@echo "... visualize_correspondences.o"
 	@echo "... visualize_correspondences.i"
 	@echo "... visualize_correspondences.s"

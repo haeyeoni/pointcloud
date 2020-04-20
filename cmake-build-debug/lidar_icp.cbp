@@ -70,6 +70,7 @@
 					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/home/haeyeon/pointcloud/src"/>
 					<Add directory="/home/haeyeon/pointcloud/include"/>
 					<Add directory="/usr/include/pcl-1.8"/>
@@ -129,6 +130,7 @@
 					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/include/tcl"/>
 					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/home/haeyeon/pointcloud/src"/>
 					<Add directory="/home/haeyeon/pointcloud/include"/>
 					<Add directory="/usr/include/pcl-1.8"/>
@@ -156,22 +158,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/haeyeon/pointcloud/feature_registeration.cpp">
+		<Unit filename="/home/haeyeon/pointcloud/nearest_callback.cpp">
 			<Option target="lidar_icp"/>
 		</Unit>
-		<Unit filename="/home/haeyeon/pointcloud/feature_registeration.h">
-			<Option target="lidar_icp"/>
-		</Unit>
-		<Unit filename="/home/haeyeon/pointcloud/find_nearest.cpp">
-			<Option target="lidar_icp"/>
-		</Unit>
-		<Unit filename="/home/haeyeon/pointcloud/find_nearest.h">
-			<Option target="lidar_icp"/>
-		</Unit>
-		<Unit filename="/home/haeyeon/pointcloud/visualize_correspondences.cpp">
-			<Option target="lidar_icp"/>
-		</Unit>
-		<Unit filename="/home/haeyeon/pointcloud/visualize_correspondences.h">
+		<Unit filename="/home/haeyeon/pointcloud/nearest_callback.h">
 			<Option target="lidar_icp"/>
 		</Unit>
 		<Unit filename="/home/haeyeon/pointcloud/CMakeLists.txt">

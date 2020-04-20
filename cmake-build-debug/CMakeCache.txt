@@ -697,6 +697,9 @@ RSSDK_LIBRARY_DEBUG:FILEPATH=RSSDK_LIBRARY_DEBUG-NOTFOUND
 //The directory containing VTKConfig.cmake
 VTK_DIR:PATH=/usr/lib/cmake/vtk-6.3
 
+//The directory containing a CMake configuration file for catkin.
+catkin_DIR:PATH=catkin_DIR-NOTFOUND
+
 //Value Computed by CMake
 lidar_icp_BINARY_DIR:STATIC=/home/haeyeon/pointcloud/cmake-build-debug
 

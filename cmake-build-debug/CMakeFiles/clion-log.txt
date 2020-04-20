@@ -25,7 +25,6 @@ but this file does not exist.  Possible reasons include:
    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
 but not all the files it references.
 
--- Found libusb-1.0: /usr/include  
 ** WARNING ** io features related to libusb-1.0 will be disabled
 -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
 ** WARNING ** visualization features related to ensenso will be disabled

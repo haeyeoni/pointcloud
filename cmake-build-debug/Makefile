@@ -123,86 +123,32 @@ lidar_icp/fast:
 	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/build
 .PHONY : lidar_icp/fast
 
-feature_registeration.o: feature_registeration.cpp.o
+nearest_callback.o: nearest_callback.cpp.o
 
-.PHONY : feature_registeration.o
-
-# target to build an object file
-feature_registeration.cpp.o:
-	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/feature_registeration.cpp.o
-.PHONY : feature_registeration.cpp.o
-
-feature_registeration.i: feature_registeration.cpp.i
-
-.PHONY : feature_registeration.i
-
-# target to preprocess a source file
-feature_registeration.cpp.i:
-	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/feature_registeration.cpp.i
-.PHONY : feature_registeration.cpp.i
-
-feature_registeration.s: feature_registeration.cpp.s
-
-.PHONY : feature_registeration.s
-
-# target to generate assembly for a file
-feature_registeration.cpp.s:
-	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/feature_registeration.cpp.s
-.PHONY : feature_registeration.cpp.s
-
-find_nearest.o: find_nearest.cpp.o
-
-.PHONY : find_nearest.o
+.PHONY : nearest_callback.o
 
 # target to build an object file
-find_nearest.cpp.o:
-	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/find_nearest.cpp.o
-.PHONY : find_nearest.cpp.o
+nearest_callback.cpp.o:
+	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/nearest_callback.cpp.o
+.PHONY : nearest_callback.cpp.o
 
-find_nearest.i: find_nearest.cpp.i
+nearest_callback.i: nearest_callback.cpp.i
 
-.PHONY : find_nearest.i
-
-# target to preprocess a source file
-find_nearest.cpp.i:
-	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/find_nearest.cpp.i
-.PHONY : find_nearest.cpp.i
-
-find_nearest.s: find_nearest.cpp.s
-
-.PHONY : find_nearest.s
-
-# target to generate assembly for a file
-find_nearest.cpp.s:
-	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/find_nearest.cpp.s
-.PHONY : find_nearest.cpp.s
-
-visualize_correspondences.o: visualize_correspondences.cpp.o
-
-.PHONY : visualize_correspondences.o
-
-# target to build an object file
-visualize_correspondences.cpp.o:
-	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/visualize_correspondences.cpp.o
-.PHONY : visualize_correspondences.cpp.o
-
-visualize_correspondences.i: visualize_correspondences.cpp.i
-
-.PHONY : visualize_correspondences.i
+.PHONY : nearest_callback.i
 
 # target to preprocess a source file
-visualize_correspondences.cpp.i:
-	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/visualize_correspondences.cpp.i
-.PHONY : visualize_correspondences.cpp.i
+nearest_callback.cpp.i:
+	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/nearest_callback.cpp.i
+.PHONY : nearest_callback.cpp.i
 
-visualize_correspondences.s: visualize_correspondences.cpp.s
+nearest_callback.s: nearest_callback.cpp.s
 
-.PHONY : visualize_correspondences.s
+.PHONY : nearest_callback.s
 
 # target to generate assembly for a file
-visualize_correspondences.cpp.s:
-	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/visualize_correspondences.cpp.s
-.PHONY : visualize_correspondences.cpp.s
+nearest_callback.cpp.s:
+	$(MAKE) -f CMakeFiles/lidar_icp.dir/build.make CMakeFiles/lidar_icp.dir/nearest_callback.cpp.s
+.PHONY : nearest_callback.cpp.s
 
 # Help Target
 help:
@@ -213,15 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lidar_icp"
-	@echo "... feature_registeration.o"
-	@echo "... feature_registeration.i"
-	@echo "... feature_registeration.s"
-	@echo "... find_nearest.o"
-	@echo "... find_nearest.i"
-	@echo "... find_nearest.s"
-	@echo "... visualize_correspondences.o"
-	@echo "... visualize_correspondences.i"
-	@echo "... visualize_correspondences.s"
+	@echo "... nearest_callback.o"
+	@echo "... nearest_callback.i"
+	@echo "... nearest_callback.s"
 .PHONY : help
 
 

@@ -16,7 +16,6 @@
 #include <pcl/kdtree/kdtree_flann.h>
 
 using namespace std;
-int count_files(std::string, std::string);
 #ifndef LIDAR_ICP_HELLO_WORLD_H
 #define LIDAR_ICP_HELLO_WORLD_H
 int point_registration();
